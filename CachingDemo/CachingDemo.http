@@ -1,6 +1,6 @@
 @CachingDemo_HostAddress = http://localhost:5207
 
-GET {{CachingDemo_HostAddress}}/weatherforecast/
+GET {{CachingDemo_HostAddress}}/product?pageNumber=1&pageSize=10
 Accept: application/json
 
 ###
